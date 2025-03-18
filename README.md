@@ -96,7 +96,7 @@ The service requires specific configuration values that should be stored in a .e
 DB_HOST=db
 DB_PORT=5432
 DB_USER=admin
-DB_PASSWORD=admin
+DB_PASSWORD=
 DB_NAME=database
 ```
 ## Comming soon...
