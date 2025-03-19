@@ -1,0 +1,12 @@
+Primeros pasos para crear un proyecto:
+1. Iniciar:
+alembic init nombreDeLaApp
+
+Comandos:
+1. Crear Migracion
+    alembic revision --autogenerate -m "Nombre de la migracion"
+    alembic revision --autogenerate -m "relacionando user_type con user"
+
+
+2. Migrar
+    alembic upgrade head

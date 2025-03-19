@@ -12,8 +12,13 @@ router = APIRouter()
 include_route(router, example_router, prefix="/example", tags=["example"])
 
 # Generic routes
-# Example: include_route(router, "example", prefix="/example", tags=["example"])
-include_route(router, "my_route", prefix="/my_route", tags=["example"])
+
+# # Projects routes
+include_route(router, "user_type", prefix="/user_type", tags=["User Type"])
+include_route(router, "user", prefix="/user", tags=["User"])
+include_route(router, "lesson", prefix="/lesson", tags=["Lesson"])
+
+
 
 
 __all__ = ["router"]

@@ -8,3 +8,7 @@ c/
 __pycache__/
 
 /.env
+venv
+
+/.vscode
+# /comandos

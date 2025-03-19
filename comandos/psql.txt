@@ -1,0 +1,6 @@
+
+Ver tablas:
+\dt
+
+Ver bases de datos:
+\l
