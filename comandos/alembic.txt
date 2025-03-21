@@ -10,3 +10,6 @@ Comandos:
 
 2. Migrar
     alembic upgrade head
+
+3. Deshacer las migraciones
+    alembic downgrade base

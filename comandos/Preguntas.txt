@@ -9,3 +9,5 @@ Para que quiero las migraciones si ya se hacen con los modelos?
 
 En user_type:
 # Tuve que usar esta linea para eliminar las comillas en (users: List["User"]) y me funciono?
+
+pep8 para autodentado

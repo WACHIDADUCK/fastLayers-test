@@ -1,4 +1,7 @@
 
+Abrir consola postgres:
+su postgres
+
 Ver tablas:
 \dt
 
