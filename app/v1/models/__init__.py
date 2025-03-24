@@ -5,6 +5,10 @@ from app.v1.models.my_route import MyRoute
 from app.v1.models.user_type import UserType
 from app.v1.models.user import User
 from app.v1.models.lesson import Lesson
+from app.v1.models.topic import Topic
+from app.v1.models.subject import Subject
+from app.v1.models.attent import Attent
+
 
 
 # List all models to be registered
@@ -15,6 +19,9 @@ all_models = [
     MyRoute,
     UserType,
     User,
-    Lesson
+    Lesson,
+    Topic,
+    Subject,
+    Attent
 ]
 

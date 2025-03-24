@@ -17,6 +17,10 @@ include_route(router, example_router, prefix="/example", tags=["example"])
 include_route(router, "user_type", prefix="/user_type", tags=["User Type"])
 include_route(router, "user", prefix="/user", tags=["User"])
 include_route(router, "lesson", prefix="/lesson", tags=["Lesson"])
+include_route(router, "subject", prefix="/subject", tags=["Subject"])
+include_route(router, "topic", prefix="/topic", tags=["Topic"])
+include_route(router, "attent", prefix="/attent", tags=["Attent"])
+
 
 
 
